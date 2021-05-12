@@ -1,0 +1,124 @@
+/*
+ Theme Name:   Bravada Child Theme
+ description: >-
+   A child theme of the Bravada theme
+ Author:       Cryout Creations
+ Template:     bravada
+ Version:      1.0.5
+*/
+
+
+/*Changed style of the top bar menu*/
+
+div.new_menu_class ul {
+    margin:0px 0px 0px 0px;
+	padding:10px 0px 10px 0px;
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+    text-align:right;
+	background-color:#FFFFFF;
+	
+}
+div.new_menu_class li {
+    padding: 0px 20px 0px 0px;
+    display: inline;
+	background-color:#FFFFFF;
+	
+} 
+div.new_menu_classs a { 
+    color:#FFFFFF;
+	background-color:#FFFFFF;
+}
+
+
+/*Adjusted the Size of the Image Cataloge of Products Page*/
+
+.woocommerce-thumbnail-container {
+    min-height: 230px;
+    max-height: 230px;
+    overflow: hidden;
+	margin: 50px 0px 0px 20px;
+	
+ }
+ 
+ /*Changed the colour of the price */
+.price .woocommerce-Price-amount.amount {
+    
+    color: #FF0072;
+	font-size: 14px;
+}
+
+/*Edited the Title of Product in Product Cataloge to make sure everything is aligned */
+
+.woocommerce-loop-product__title{
+	 font-size: 15px !important; 
+	 padding: 20px 0px 0px 0px !important;
+	 text-align: center !important;
+     white-space: nowrap !important;	  
+}
+
+
+/*Edited the contents in Related Posts*/
+.woocommerce .related ul li.product img, .woocommerce .related ul.products li.product img {
+	
+    width: 70%;
+	margin-left:35px !important;
+	
+}
+
+.woocommerce .related h2 {
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     max-width: 350px;
+	 
+}
+
+/*Adjusted the Image for Product in Single Product page */
+.woocommerce img, .woocommerce-page img {
+	
+	max-height: 600px;
+	max-width: 400px;
+	margin-left: 55px;
+}
+
+/*Added Border to Side bars*/
+ 
+.widget-container {
+	border: solid !important; 
+	border-color: #947EB2 !important;  
+	border-width: 2px !important;
+}
+
+.top-widget-area > section, .bottom-widget-area > section, .content-widget-before > section, .content-widget-after > section
+{
+	border: none !important;
+}
+
+/*Add bottom boarder for side bar*/
+.widget-container ul li
+{
+	border-bottom-color:#947EB2 !important;
+}
+
+/*Adjust the size of sub-menu*/
+.sub-menu.toggled-on
+{
+	font-size: 12px !important;
+	margin-left: 50px !important;
+}
+
+
+/*Change colour for comment box*/
+.comment-form-author input, .comment-form-email input, .comment-form-url input, .comment-form-comment textarea
+{
+	background-color: #FFFFFF !important ; 
+	border: solid;
+}
+
+.comment-form-author input, .comment-form-email input, .comment-form-url input, .comment-form-comment textarea:hover
+{
+	background-color: #f0f0f0 !important;
+}
+
